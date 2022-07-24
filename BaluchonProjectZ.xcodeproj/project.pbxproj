@@ -99,13 +99,11 @@
 		D100DB42288DDC8B00FF70DF /* BaluchonProjectZ */ = {
 			isa = PBXGroup;
 			children = (
-				D100DB43288DDC8B00FF70DF /* AppDelegate.swift */,
-				D100DB45288DDC8B00FF70DF /* SceneDelegate.swift */,
-				D100DB47288DDC8B00FF70DF /* ViewController.swift */,
-				D100DB49288DDC8B00FF70DF /* Main.storyboard */,
-				D100DB4C288DDC8E00FF70DF /* Assets.xcassets */,
-				D100DB4E288DDC8E00FF70DF /* LaunchScreen.storyboard */,
 				D100DB51288DDC8E00FF70DF /* Info.plist */,
+				D100DB75288DDD8600FF70DF /* Model */,
+				D100DB74288DDD7900FF70DF /* View */,
+				D100DB73288DDD6200FF70DF /* Controller */,
+				D100DB76288DDD9900FF70DF /* Supporting Files */,
 			);
 			path = BaluchonProjectZ;
 			sourceTree = "<group>";
@@ -125,6 +123,40 @@
 				D100DB66288DDC8F00FF70DF /* BaluchonProjectZUITestsLaunchTests.swift */,
 			);
 			path = BaluchonProjectZUITests;
+			sourceTree = "<group>";
+		};
+		D100DB73288DDD6200FF70DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D100DB47288DDC8B00FF70DF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D100DB74288DDD7900FF70DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D100DB49288DDC8B00FF70DF /* Main.storyboard */,
+				D100DB4E288DDC8E00FF70DF /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D100DB75288DDD8600FF70DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D100DB76288DDD9900FF70DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D100DB43288DDC8B00FF70DF /* AppDelegate.swift */,
+				D100DB4C288DDC8E00FF70DF /* Assets.xcassets */,
+				D100DB45288DDC8B00FF70DF /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
