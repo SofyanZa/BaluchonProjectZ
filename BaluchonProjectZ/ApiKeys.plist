@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>keyApiWeather</key>
+	<string>3d11a33b99fe27681978268cf5a87131</string>
+	<key>keyApiCurrency</key>
+	<string>eRADV76kkdP3u5IA2UHwSQh9ZwzZqwaU</string>
+	<key>keyApiTranslate</key>
+	<string>AIzaSyChNY-x84nfmFWmsned-1AUDcKVlRX_lkk</string>
+</dict>
+</plist>
