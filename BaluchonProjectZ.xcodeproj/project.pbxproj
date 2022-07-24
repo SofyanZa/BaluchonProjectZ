@@ -16,6 +16,9 @@
 		D100DB5B288DDC8F00FF70DF /* BaluchonProjectZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB5A288DDC8F00FF70DF /* BaluchonProjectZTests.swift */; };
 		D100DB65288DDC8F00FF70DF /* BaluchonProjectZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB64288DDC8F00FF70DF /* BaluchonProjectZUITests.swift */; };
 		D100DB67288DDC8F00FF70DF /* BaluchonProjectZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB66288DDC8F00FF70DF /* BaluchonProjectZUITestsLaunchTests.swift */; };
+		D100DB78288DE13D00FF70DF /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB77288DE13D00FF70DF /* CurrencyViewController.swift */; };
+		D100DB7C288DE14600FF70DF /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB7A288DE14600FF70DF /* Currency.swift */; };
+		D100DB7D288DE14600FF70DF /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB7B288DE14600FF70DF /* CurrencyService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D100DB60288DDC8F00FF70DF /* BaluchonProjectZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaluchonProjectZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D100DB64288DDC8F00FF70DF /* BaluchonProjectZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaluchonProjectZUITests.swift; sourceTree = "<group>"; };
 		D100DB66288DDC8F00FF70DF /* BaluchonProjectZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaluchonProjectZUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D100DB77288DE13D00FF70DF /* CurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		D100DB7A288DE14600FF70DF /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		D100DB7B288DE14600FF70DF /* CurrencyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 				D100DB75288DDD8600FF70DF /* Model */,
 				D100DB74288DDD7900FF70DF /* View */,
 				D100DB73288DDD6200FF70DF /* Controller */,
+				D100DB77288DE13D00FF70DF /* CurrencyViewController.swift */,
 				D100DB76288DDD9900FF70DF /* Supporting Files */,
 			);
 			path = BaluchonProjectZ;
@@ -145,6 +152,7 @@
 		D100DB75288DDD8600FF70DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D100DB79288DE14600FF70DF /* Currency */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +165,15 @@
 				D100DB45288DDC8B00FF70DF /* SceneDelegate.swift */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D100DB79288DE14600FF70DF /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				D100DB7A288DE14600FF70DF /* Currency.swift */,
+				D100DB7B288DE14600FF70DF /* CurrencyService.swift */,
+			);
+			path = Currency;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D100DB48288DDC8B00FF70DF /* ViewController.swift in Sources */,
+				D100DB7C288DE14600FF70DF /* Currency.swift in Sources */,
+				D100DB7D288DE14600FF70DF /* CurrencyService.swift in Sources */,
+				D100DB78288DE13D00FF70DF /* CurrencyViewController.swift in Sources */,
 				D100DB44288DDC8B00FF70DF /* AppDelegate.swift in Sources */,
 				D100DB46288DDC8B00FF70DF /* SceneDelegate.swift in Sources */,
 			);
