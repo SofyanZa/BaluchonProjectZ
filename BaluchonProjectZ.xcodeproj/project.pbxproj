@@ -25,6 +25,7 @@
 		D100DB8C288DE2C800FF70DF /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB8A288DE2C800FF70DF /* WeatherService.swift */; };
 		D100DB8D288DE2C800FF70DF /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB8B288DE2C800FF70DF /* Weather.swift */; };
 		D100DB8F288DE2D300FF70DF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB8E288DE2D300FF70DF /* WeatherViewController.swift */; };
+		D100DB91288DE30500FF70DF /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB90288DE30500FF70DF /* WeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		D100DB8A288DE2C800FF70DF /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		D100DB8B288DE2C800FF70DF /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		D100DB8E288DE2D300FF70DF /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		D100DB90288DE30500FF70DF /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		D100DB74288DDD7900FF70DF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D100DB90288DE30500FF70DF /* WeatherView.swift */,
 				D100DB49288DDC8B00FF70DF /* Main.storyboard */,
 				D100DB4E288DDC8E00FF70DF /* LaunchScreen.storyboard */,
 			);
@@ -345,6 +348,7 @@
 				D100DB82288DE1AA00FF70DF /* ErrorCases.swift in Sources */,
 				D100DB8C288DE2C800FF70DF /* WeatherService.swift in Sources */,
 				D100DB7C288DE14600FF70DF /* Currency.swift in Sources */,
+				D100DB91288DE30500FF70DF /* WeatherView.swift in Sources */,
 				D100DB88288DE20E00FF70DF /* ObtainApiKey.swift in Sources */,
 				D100DB8D288DE2C800FF70DF /* Weather.swift in Sources */,
 				D100DB7D288DE14600FF70DF /* CurrencyService.swift in Sources */,
