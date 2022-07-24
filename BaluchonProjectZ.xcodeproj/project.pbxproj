@@ -26,6 +26,9 @@
 		D100DB8D288DE2C800FF70DF /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB8B288DE2C800FF70DF /* Weather.swift */; };
 		D100DB8F288DE2D300FF70DF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB8E288DE2D300FF70DF /* WeatherViewController.swift */; };
 		D100DB91288DE30500FF70DF /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB90288DE30500FF70DF /* WeatherView.swift */; };
+		D100DB93288DE32F00FF70DF /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB92288DE32F00FF70DF /* TranslateViewController.swift */; };
+		D100DB97288DE34500FF70DF /* TranslateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB95288DE34500FF70DF /* TranslateService.swift */; };
+		D100DB98288DE34500FF70DF /* Translate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB96288DE34500FF70DF /* Translate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		D100DB8B288DE2C800FF70DF /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		D100DB8E288DE2D300FF70DF /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		D100DB90288DE30500FF70DF /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		D100DB92288DE32F00FF70DF /* TranslateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
+		D100DB95288DE34500FF70DF /* TranslateService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateService.swift; sourceTree = "<group>"; };
+		D100DB96288DE34500FF70DF /* Translate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				D100DB8E288DE2D300FF70DF /* WeatherViewController.swift */,
+				D100DB92288DE32F00FF70DF /* TranslateViewController.swift */,
 				D100DB77288DE13D00FF70DF /* CurrencyViewController.swift */,
 			);
 			path = Controller;
@@ -207,10 +214,20 @@
 		D100DB89288DE2C800FF70DF /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				D100DB94288DE34500FF70DF /* Translate */,
 				D100DB8A288DE2C800FF70DF /* WeatherService.swift */,
 				D100DB8B288DE2C800FF70DF /* Weather.swift */,
 			);
 			path = Weather;
+			sourceTree = "<group>";
+		};
+		D100DB94288DE34500FF70DF /* Translate */ = {
+			isa = PBXGroup;
+			children = (
+				D100DB95288DE34500FF70DF /* TranslateService.swift */,
+				D100DB96288DE34500FF70DF /* Translate.swift */,
+			);
+			path = Translate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,8 +372,11 @@
 				D100DB78288DE13D00FF70DF /* CurrencyViewController.swift in Sources */,
 				D100DB44288DDC8B00FF70DF /* AppDelegate.swift in Sources */,
 				D100DB83288DE1AA00FF70DF /* UIViewController.swift in Sources */,
+				D100DB93288DE32F00FF70DF /* TranslateViewController.swift in Sources */,
 				D100DB46288DDC8B00FF70DF /* SceneDelegate.swift in Sources */,
+				D100DB97288DE34500FF70DF /* TranslateService.swift in Sources */,
 				D100DB8F288DE2D300FF70DF /* WeatherViewController.swift in Sources */,
+				D100DB98288DE34500FF70DF /* Translate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
