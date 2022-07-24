@@ -19,6 +19,8 @@
 		D100DB78288DE13D00FF70DF /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB77288DE13D00FF70DF /* CurrencyViewController.swift */; };
 		D100DB7C288DE14600FF70DF /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB7A288DE14600FF70DF /* Currency.swift */; };
 		D100DB7D288DE14600FF70DF /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB7B288DE14600FF70DF /* CurrencyService.swift */; };
+		D100DB82288DE1AA00FF70DF /* ErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB7F288DE1AA00FF70DF /* ErrorCases.swift */; };
+		D100DB83288DE1AA00FF70DF /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB80288DE1AA00FF70DF /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		D100DB77288DE13D00FF70DF /* CurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
 		D100DB7A288DE14600FF70DF /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		D100DB7B288DE14600FF70DF /* CurrencyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
+		D100DB7F288DE1AA00FF70DF /* ErrorCases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorCases.swift; sourceTree = "<group>"; };
+		D100DB80288DE1AA00FF70DF /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				D100DB51288DDC8E00FF70DF /* Info.plist */,
+				D100DB7E288DE1AA00FF70DF /* Extensions */,
 				D100DB75288DDD8600FF70DF /* Model */,
 				D100DB74288DDD7900FF70DF /* View */,
 				D100DB73288DDD6200FF70DF /* Controller */,
@@ -174,6 +179,15 @@
 				D100DB7B288DE14600FF70DF /* CurrencyService.swift */,
 			);
 			path = Currency;
+			sourceTree = "<group>";
+		};
+		D100DB7E288DE1AA00FF70DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D100DB7F288DE1AA00FF70DF /* ErrorCases.swift */,
+				D100DB80288DE1AA00FF70DF /* UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,10 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D100DB48288DDC8B00FF70DF /* ViewController.swift in Sources */,
+				D100DB82288DE1AA00FF70DF /* ErrorCases.swift in Sources */,
 				D100DB7C288DE14600FF70DF /* Currency.swift in Sources */,
 				D100DB7D288DE14600FF70DF /* CurrencyService.swift in Sources */,
 				D100DB78288DE13D00FF70DF /* CurrencyViewController.swift in Sources */,
 				D100DB44288DDC8B00FF70DF /* AppDelegate.swift in Sources */,
+				D100DB83288DE1AA00FF70DF /* UIViewController.swift in Sources */,
 				D100DB46288DDC8B00FF70DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
