@@ -63,9 +63,9 @@ final class WeatherViewController: UIViewController {
     // paramètres par défaut
     private func defaultSetting() {
         if destination[0].text == "" {
-            destination[0].text = "  New York"
+            destination[0].text = "  Paris"
         } else if destination[1].text == "" {
-            destination[1].text = "  Paris"
+            destination[1].text = "  Washington"
         }
     }
     
@@ -89,62 +89,3 @@ extension WeatherViewController: UITextFieldDelegate {
         destination[1].resignFirstResponder()
     }
 }
-
-@IBDesignable extension UIButton {
-
-    @IBInspectable var borderWidth: CGFloat {
-        set {
-            layer.borderWidth = newValue
-        }
-        get {
-            return layer.borderWidth
-        }
-    }
-
-    @IBInspectable var cornerRadius: CGFloat {
-        set {
-            layer.cornerRadius = newValue
-        }
-        get {
-            return layer.cornerRadius
-        }
-    }
-
-    @IBInspectable var borderColor: UIColor? {
-        set {
-            guard let uiColor = newValue else { return }
-            layer.borderColor = uiColor.cgColor
-        }
-        get {
-            guard let color = layer.borderColor else { return nil }
-            return UIColor(cgColor: color)
-        }
-    }
-    
-    @IBInspectable var shadowRadius: CGFloat {
-        get { return layer.shadowRadius }
-        set { layer.shadowRadius = newValue }
-    }
-
-    @IBInspectable var shadowOpacity: CGFloat {
-        get { return CGFloat(layer.shadowOpacity) }
-        set { layer.shadowOpacity = Float(newValue) }
-    }
-
-    @IBInspectable var shadowOffset: CGSize {
-        get { return layer.shadowOffset }
-        set { layer.shadowOffset = newValue }
-    }
-
-    @IBInspectable var shadowColor: UIColor? {
-        get {
-            guard let cgColor = layer.shadowColor else {
-                return nil
-            }
-            return UIColor(cgColor: cgColor)
-        }
-        set { layer.shadowColor = newValue?.cgColor }
-    }
-}
-
-

@@ -83,7 +83,7 @@
                                                 <color key="textColor" red="0.02352941222" green="0.1019607931" blue="0.1764705926" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" 1" placeholder=" 1" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="iaw-57-y8u">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="iaw-57-y8u">
                                                 <rect key="frame" x="0.0" y="60" width="354" height="40.5"/>
                                                 <color key="backgroundColor" red="0.02352941222" green="0.1019607931" blue="0.1764705926" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" red="0.68627452850000004" green="0.71372550729999995" blue="0.76470589639999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -170,7 +170,7 @@
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="VwZ-UV-PQX">
                                 <rect key="frame" x="188.5" y="741" width="37" height="37"/>
-                                <color key="color" red="0.68627452850000004" green="0.71372550729999995" blue="0.76470589639999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="color" red="0.02352941222" green="0.1019607931" blue="0.1764705926" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q32-Wp-Zof"/>
