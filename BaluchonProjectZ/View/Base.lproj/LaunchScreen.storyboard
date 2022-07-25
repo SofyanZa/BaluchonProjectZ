@@ -15,12 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Le Baluchon" textAlignment="natural" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="kib-ae-GXo">
-                                <rect key="frame" x="-5.5" y="56" width="384" height="169"/>
-                                <color key="textColor" red="0.68627452850000004" green="0.71372550729999995" blue="0.76470589639999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="50"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="Avl-i9-Cu1">
                                 <rect key="frame" x="34.5" y="232" width="306.5" height="80.5"/>
                                 <subviews>
@@ -114,6 +108,12 @@
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="40"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="aaa" translatesAutoresizingMaskIntoConstraints="NO" id="wo2-l8-FJa">
+                                <rect key="frame" x="70" y="26" width="235" height="183"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="183" id="gF8-po-jds"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.02352941222" green="0.1019607931" blue="0.1764705926" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -121,12 +121,14 @@
                             <constraint firstItem="xQG-rb-TfG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="08O-Ob-VbL"/>
                             <constraint firstItem="xQG-rb-TfG" firstAttribute="top" secondItem="Avl-i9-Cu1" secondAttribute="bottom" constant="30.5" id="0J1-KB-KCB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xQG-rb-TfG" secondAttribute="trailing" constant="77" id="4Uo-YN-tkF"/>
-                            <constraint firstItem="xQG-rb-TfG" firstAttribute="centerX" secondItem="kib-ae-GXo" secondAttribute="centerX" constant="1" id="9lO-On-Fkx"/>
-                            <constraint firstItem="kib-ae-GXo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="K6n-WF-gFb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xQG-rb-TfG" secondAttribute="bottom" constant="189" id="Khe-PH-bFj"/>
+                            <constraint firstItem="wo2-l8-FJa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="L9h-kN-ene"/>
+                            <constraint firstItem="wo2-l8-FJa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="Sfa-pk-sUe"/>
                             <constraint firstItem="xQG-rb-TfG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Uxb-xg-YlG"/>
+                            <constraint firstItem="wo2-l8-FJa" firstAttribute="centerX" secondItem="Avl-i9-Cu1" secondAttribute="centerX" id="apY-xV-3ba"/>
+                            <constraint firstItem="wo2-l8-FJa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="bNY-17-2Go"/>
+                            <constraint firstItem="wo2-l8-FJa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="mgw-rK-qVx"/>
                             <constraint firstItem="xQG-rb-TfG" firstAttribute="centerX" secondItem="Avl-i9-Cu1" secondAttribute="centerX" id="sgb-x9-8GQ"/>
-                            <constraint firstItem="Avl-i9-Cu1" firstAttribute="top" secondItem="kib-ae-GXo" secondAttribute="bottom" constant="7" id="vdW-RO-TIC"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -227,11 +229,12 @@
                     </constraints>
                 </stackView>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
     <resources>
         <image name="Cloudy_empty" width="50" height="50"/>
+        <image name="aaa" width="1676" height="840"/>
         <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="dollarsign.square.fill" catalog="system" width="128" height="114"/>
         <image name="weather" width="30" height="30"/>
