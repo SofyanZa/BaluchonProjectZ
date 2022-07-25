@@ -98,6 +98,7 @@
 		D100DBB5288DE7ED00FF70DF /* URLSessionFake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionFake.swift; sourceTree = "<group>"; };
 		D100DBB7288DE7F300FF70DF /* FakeResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeResponseData.swift; sourceTree = "<group>"; };
 		D100DBB9288DE7FF00FF70DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D16BE6BC288EAEA2007CEFA6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +129,7 @@
 		D100DB37288DDC8B00FF70DF = {
 			isa = PBXGroup;
 			children = (
+				D16BE6BC288EAEA2007CEFA6 /* README.md */,
 				D100DB42288DDC8B00FF70DF /* BaluchonProjectZ */,
 				D100DB59288DDC8F00FF70DF /* BaluchonProjectZTests */,
 				D100DB63288DDC8F00FF70DF /* BaluchonProjectZUITests */,
@@ -205,6 +207,7 @@
 		D100DB75288DDD8600FF70DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D100DB94288DE34500FF70DF /* Translate */,
 				D100DB89288DE2C800FF70DF /* Weather */,
 				D100DB87288DE20E00FF70DF /* ObtainApiKey.swift */,
 				D100DB79288DE14600FF70DF /* Currency */,
@@ -243,7 +246,6 @@
 		D100DB89288DE2C800FF70DF /* Weather */ = {
 			isa = PBXGroup;
 			children = (
-				D100DB94288DE34500FF70DF /* Translate */,
 				D100DB8A288DE2C800FF70DF /* WeatherService.swift */,
 				D100DB8B288DE2C800FF70DF /* Weather.swift */,
 			);

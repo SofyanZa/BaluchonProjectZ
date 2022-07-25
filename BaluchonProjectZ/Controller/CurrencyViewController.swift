@@ -27,7 +27,7 @@ final class CurrencyViewController: UIViewController {
     // MARK: - Action to check if there's value to convert
     
     @IBAction private func tappedConvertButton(_ sender: UIButton) {
-        guard currencyTextField.text != "", currencyTextField.text != "," else {
+        guard currencyTextField.text != " ", currencyTextField.text != "," else {
             // envoie une alerte pour entrer une valeur à convertir
             alert(title: "Erreur", message: "Veuillez entrer un montant !")
             return
