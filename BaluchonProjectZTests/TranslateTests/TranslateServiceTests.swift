@@ -8,7 +8,7 @@
 
 
 import XCTest
-@testable import BaluchonProject
+@testable import BaluchonProjectZ
 
 class TranslateServiceTests: XCTestCase {
     // test callback return error

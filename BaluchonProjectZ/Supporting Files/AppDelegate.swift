@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // color dark gray for the items unselected in the tab bar
         UITabBar.appearance().unselectedItemTintColor = UIColor.darkGray
+        
+        // launchscreen duration increase
+        Thread.sleep(forTimeInterval: 1.0)
+
         // Override point for customization after application launch.
         return true
     }

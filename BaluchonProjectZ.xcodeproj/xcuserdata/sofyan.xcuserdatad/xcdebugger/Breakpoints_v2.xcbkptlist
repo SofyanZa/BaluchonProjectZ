@@ -20,5 +20,83 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37A5F5CB-1B44-4FCC-A499-0895A374CCA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BaluchonProjectZ/Controller/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "WeatherViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "37A5F5CB-1B44-4FCC-A499-0895A374CCA2 - b71cf21c004a0f44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaluchonProjectZ.WeatherViewController.weatherActivityIndicator.getter : Swift.Optional&lt;__C.UIActivityIndicatorView&gt;"
+                  moduleName = "BaluchonProjectZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sofyan/Desktop/DevIos2/BaluchonProjectZ/BaluchonProjectZ/Controller/WeatherViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "37A5F5CB-1B44-4FCC-A499-0895A374CCA2 - 81a65e79a99be358"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaluchonProjectZ.WeatherViewController.weatherActivityIndicator.setter : Swift.Optional&lt;__C.UIActivityIndicatorView&gt;"
+                  moduleName = "BaluchonProjectZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sofyan/Desktop/DevIos2/BaluchonProjectZ/BaluchonProjectZ/Controller/WeatherViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "37A5F5CB-1B44-4FCC-A499-0895A374CCA2 - 4476b3aea4ac881b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaluchonProjectZ.WeatherViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BaluchonProjectZ.WeatherViewController"
+                  moduleName = "BaluchonProjectZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sofyan/Desktop/DevIos2/BaluchonProjectZ/BaluchonProjectZ/Controller/WeatherViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "37A5F5CB-1B44-4FCC-A499-0895A374CCA2 - f0cc6d5946006b6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BaluchonProjectZ.WeatherViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BaluchonProjectZ.WeatherViewController&gt;"
+                  moduleName = "BaluchonProjectZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sofyan/Desktop/DevIos2/BaluchonProjectZ/BaluchonProjectZ/Controller/WeatherViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -40,7 +40,6 @@
 		D100DBB4288DE7E100FF70DF /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = D100DBB2288DE7E100FF70DF /* Weather.json */; };
 		D100DBB6288DE7ED00FF70DF /* URLSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DBB5288DE7ED00FF70DF /* URLSessionFake.swift */; };
 		D100DBB8288DE7F300FF70DF /* FakeResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DBB7288DE7F300FF70DF /* FakeResponseData.swift */; };
-		D100DBBA288DE7FF00FF70DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D100DBB9288DE7FF00FF70DF /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,9 +150,9 @@
 			children = (
 				D100DB9B288DE53C00FF70DF /* Info.plist */,
 				D100DB85288DE20200FF70DF /* ApiKeys.plist */,
+				D100DB74288DDD7900FF70DF /* View */,
 				D100DB7E288DE1AA00FF70DF /* Extensions */,
 				D100DB75288DDD8600FF70DF /* Model */,
-				D100DB74288DDD7900FF70DF /* View */,
 				D100DB73288DDD6200FF70DF /* Controller */,
 				D100DB76288DDD9900FF70DF /* Supporting Files */,
 			);
@@ -407,7 +406,6 @@
 			files = (
 				D100DBA5288DE7D400FF70DF /* Currency.json in Resources */,
 				D100DBAD288DE7DA00FF70DF /* Translate.json in Resources */,
-				D100DBBA288DE7FF00FF70DF /* Info.plist in Resources */,
 				D100DBAC288DE7DA00FF70DF /* TranslateEnglish.json in Resources */,
 				D100DBAF288DE7DA00FF70DF /* TranslateDetect.json in Resources */,
 				D100DBB4288DE7E100FF70DF /* Weather.json in Resources */,

@@ -8,7 +8,7 @@
 
 
 import XCTest
-@testable import BaluchonProject
+@testable import BaluchonProjectZ
 
 class CurrencyServiceTests: XCTestCase {
     // Test if there is an error
