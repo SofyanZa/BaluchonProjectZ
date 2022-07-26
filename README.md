@@ -29,13 +29,7 @@ Ajout des doubles pour tester nos appels reseaux pour eviter les requetes trop l
 Adaptation de la methode d'exctraction des données sur une API avec URLSession URLSessionConfiguration URLSessionTask URLSessionDataTask, accéssion aux ressources dans les API avec des URI, format json, verbes http get post, stockage de l'apikey dans un fichier caché et requete requise dans le header, gestion des status de la reponse ( 200 succes, 400 erreur client etc ), comprehension d'une documentation d'une API
 
 
-
-
-**Techniques utilisées :**
-
-...
-
-Bonus :
+**Bonus :**
 
 Auto detection de la langue grace au mot clé detect
 

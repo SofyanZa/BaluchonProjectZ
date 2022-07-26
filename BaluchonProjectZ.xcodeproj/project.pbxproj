@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D100DB44288DDC8B00FF70DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB43288DDC8B00FF70DF /* AppDelegate.swift */; };
-		D100DB46288DDC8B00FF70DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB45288DDC8B00FF70DF /* SceneDelegate.swift */; };
 		D100DB4B288DDC8B00FF70DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D100DB49288DDC8B00FF70DF /* Main.storyboard */; };
 		D100DB4D288DDC8E00FF70DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D100DB4C288DDC8E00FF70DF /* Assets.xcassets */; };
 		D100DB50288DDC8E00FF70DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D100DB4E288DDC8E00FF70DF /* LaunchScreen.storyboard */; };
-		D100DB65288DDC8F00FF70DF /* BaluchonProjectZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB64288DDC8F00FF70DF /* BaluchonProjectZUITests.swift */; };
-		D100DB67288DDC8F00FF70DF /* BaluchonProjectZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB66288DDC8F00FF70DF /* BaluchonProjectZUITestsLaunchTests.swift */; };
 		D100DB78288DE13D00FF70DF /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB77288DE13D00FF70DF /* CurrencyViewController.swift */; };
 		D100DB7C288DE14600FF70DF /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB7A288DE14600FF70DF /* Currency.swift */; };
 		D100DB7D288DE14600FF70DF /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DB7B288DE14600FF70DF /* CurrencyService.swift */; };
@@ -40,6 +37,7 @@
 		D100DBB4288DE7E100FF70DF /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = D100DBB2288DE7E100FF70DF /* Weather.json */; };
 		D100DBB6288DE7ED00FF70DF /* URLSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DBB5288DE7ED00FF70DF /* URLSessionFake.swift */; };
 		D100DBB8288DE7F300FF70DF /* FakeResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100DBB7288DE7F300FF70DF /* FakeResponseData.swift */; };
+		D131B95028907F2C0022A485 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D131B94F28907F2C0022A485 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,14 +60,11 @@
 /* Begin PBXFileReference section */
 		D100DB40288DDC8B00FF70DF /* BaluchonProjectZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaluchonProjectZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D100DB43288DDC8B00FF70DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D100DB45288DDC8B00FF70DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D100DB4A288DDC8B00FF70DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D100DB4C288DDC8E00FF70DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D100DB4F288DDC8E00FF70DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D100DB56288DDC8F00FF70DF /* BaluchonProjectZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaluchonProjectZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D100DB60288DDC8F00FF70DF /* BaluchonProjectZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaluchonProjectZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D100DB64288DDC8F00FF70DF /* BaluchonProjectZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaluchonProjectZUITests.swift; sourceTree = "<group>"; };
-		D100DB66288DDC8F00FF70DF /* BaluchonProjectZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaluchonProjectZUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D100DB77288DE13D00FF70DF /* CurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
 		D100DB7A288DE14600FF70DF /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		D100DB7B288DE14600FF70DF /* CurrencyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
@@ -98,6 +93,7 @@
 		D100DBB5288DE7ED00FF70DF /* URLSessionFake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionFake.swift; sourceTree = "<group>"; };
 		D100DBB7288DE7F300FF70DF /* FakeResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeResponseData.swift; sourceTree = "<group>"; };
 		D100DBB9288DE7FF00FF70DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D131B94F28907F2C0022A485 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		D16BE6BC288EAEA2007CEFA6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,9 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				D16BE6BC288EAEA2007CEFA6 /* README.md */,
+				D100DB85288DE20200FF70DF /* ApiKeys.plist */,
 				D100DB42288DDC8B00FF70DF /* BaluchonProjectZ */,
 				D100DB59288DDC8F00FF70DF /* BaluchonProjectZTests */,
-				D100DB63288DDC8F00FF70DF /* BaluchonProjectZUITests */,
 				D100DB41288DDC8B00FF70DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				D100DB9B288DE53C00FF70DF /* Info.plist */,
-				D100DB85288DE20200FF70DF /* ApiKeys.plist */,
 				D100DB74288DDD7900FF70DF /* View */,
 				D100DB7E288DE1AA00FF70DF /* Extensions */,
 				D100DB75288DDD8600FF70DF /* Model */,
@@ -172,15 +167,6 @@
 				D100DBA0288DE7D400FF70DF /* CurrencyTests */,
 			);
 			path = BaluchonProjectZTests;
-			sourceTree = "<group>";
-		};
-		D100DB63288DDC8F00FF70DF /* BaluchonProjectZUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D100DB64288DDC8F00FF70DF /* BaluchonProjectZUITests.swift */,
-				D100DB66288DDC8F00FF70DF /* BaluchonProjectZUITestsLaunchTests.swift */,
-			);
-			path = BaluchonProjectZUITests;
 			sourceTree = "<group>";
 		};
 		D100DB73288DDD6200FF70DF /* Controller */ = {
@@ -220,7 +206,6 @@
 			children = (
 				D100DB43288DDC8B00FF70DF /* AppDelegate.swift */,
 				D100DB4C288DDC8E00FF70DF /* Assets.xcassets */,
-				D100DB45288DDC8B00FF70DF /* SceneDelegate.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -239,6 +224,7 @@
 			children = (
 				D100DB7F288DE1AA00FF70DF /* ErrorCases.swift */,
 				D100DB80288DE1AA00FF70DF /* UIViewController.swift */,
+				D131B94F28907F2C0022A485 /* CustomView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -429,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D100DB82288DE1AA00FF70DF /* ErrorCases.swift in Sources */,
+				D131B95028907F2C0022A485 /* CustomView.swift in Sources */,
 				D100DB8C288DE2C800FF70DF /* WeatherService.swift in Sources */,
 				D100DB7C288DE14600FF70DF /* Currency.swift in Sources */,
 				D100DB91288DE30500FF70DF /* WeatherView.swift in Sources */,
@@ -440,7 +427,6 @@
 				D100DB9A288DE47800FF70DF /* UITextView.swift in Sources */,
 				D100DB83288DE1AA00FF70DF /* UIViewController.swift in Sources */,
 				D100DB93288DE32F00FF70DF /* TranslateViewController.swift in Sources */,
-				D100DB46288DDC8B00FF70DF /* SceneDelegate.swift in Sources */,
 				D100DB97288DE34500FF70DF /* TranslateService.swift in Sources */,
 				D100DB8F288DE2D300FF70DF /* WeatherViewController.swift in Sources */,
 				D100DB98288DE34500FF70DF /* Translate.swift in Sources */,
@@ -464,8 +450,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D100DB65288DDC8F00FF70DF /* BaluchonProjectZUITests.swift in Sources */,
-				D100DB67288DDC8F00FF70DF /* BaluchonProjectZUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
