@@ -40,5 +40,7 @@ https://cloud.google.com/translate/docs/basic/detecting-language?hl=fr
 
 ...
 https://openweathermap.org/
+
 https://cloud.google.com/translate/
+
 https://apilayer.com/marketplace/fixer-api

@@ -131,8 +131,12 @@
                                 </constraints>
                                 <variation key="heightClass=compact" axis="horizontal"/>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="VwZ-UV-PQX">
+                                <rect key="frame" x="188.5" y="741" width="37" height="37"/>
+                                <color key="color" red="0.02352941222" green="0.1019607931" blue="0.1764705926" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </activityIndicatorView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0D-PG-nU7">
-                                <rect key="frame" x="30" y="741" width="354" height="40"/>
+                                <rect key="frame" x="30" y="743" width="354" height="40"/>
                                 <color key="backgroundColor" red="0.19215688110000001" green="0.2941176593" blue="0.3686274886" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="67" id="4Cr-vi-1qc"/>
@@ -168,10 +172,6 @@
                                     <action selector="tappedConvertButton:" destination="8fo-eG-P0i" eventType="touchUpInside" id="Rf5-xD-GLX"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="VwZ-UV-PQX">
-                                <rect key="frame" x="188.5" y="741" width="37" height="37"/>
-                                <color key="color" red="0.02352941222" green="0.1019607931" blue="0.1764705926" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q32-Wp-Zof"/>
                         <color key="backgroundColor" red="0.68627452850000004" green="0.71372550729999995" blue="0.76470589639999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -180,7 +180,7 @@
                             <constraint firstItem="Q32-Wp-Zof" firstAttribute="trailing" secondItem="41C-Dv-neH" secondAttribute="trailing" constant="30" id="5LT-CY-onK"/>
                             <constraint firstAttribute="trailing" secondItem="M0D-PG-nU7" secondAttribute="trailing" constant="30" id="7Hc-to-nlt"/>
                             <constraint firstItem="M0D-PG-nU7" firstAttribute="leading" secondItem="Q32-Wp-Zof" secondAttribute="leading" constant="30" id="7RI-cn-ljf"/>
-                            <constraint firstItem="Q32-Wp-Zof" firstAttribute="bottom" secondItem="M0D-PG-nU7" secondAttribute="bottom" constant="32" id="FL9-GK-cb5"/>
+                            <constraint firstItem="Q32-Wp-Zof" firstAttribute="bottom" secondItem="M0D-PG-nU7" secondAttribute="bottom" constant="30" id="FL9-GK-cb5"/>
                             <constraint firstItem="VwZ-UV-PQX" firstAttribute="centerX" secondItem="fU2-nn-du6" secondAttribute="centerX" id="NKA-63-bVV"/>
                             <constraint firstItem="VwZ-UV-PQX" firstAttribute="centerX" secondItem="fU2-nn-du6" secondAttribute="centerX" id="SWS-1R-58g"/>
                             <constraint firstItem="41C-Dv-neH" firstAttribute="top" secondItem="Q32-Wp-Zof" secondAttribute="top" constant="30" id="Sn8-tb-lKb"/>
@@ -282,7 +282,7 @@
                                                         <nil key="highlightedColor"/>
                                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="top" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" text=" Veuillez entrer ici le texte à traduire" placeholder=" Entrez du texte ici" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="H9c-ZF-M5b">
+                                                    <textField opaque="NO" contentMode="top" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder=" Entrez du texte ici" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="H9c-ZF-M5b">
                                                         <rect key="frame" x="0.0" y="43" width="354" height="147"/>
                                                         <color key="backgroundColor" red="0.02352941222" green="0.1019607931" blue="0.1764705926" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="textColor" red="0.68627452850000004" green="0.71372550729999995" blue="0.76470589639999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

@@ -48,13 +48,6 @@
 			remoteGlobalIDString = D100DB3F288DDC8B00FF70DF;
 			remoteInfo = BaluchonProjectZ;
 		};
-		D100DB61288DDC8F00FF70DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D100DB38288DDC8B00FF70DF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D100DB3F288DDC8B00FF70DF;
-			remoteInfo = BaluchonProjectZ;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +57,6 @@
 		D100DB4C288DDC8E00FF70DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D100DB4F288DDC8E00FF70DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D100DB56288DDC8F00FF70DF /* BaluchonProjectZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaluchonProjectZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D100DB60288DDC8F00FF70DF /* BaluchonProjectZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaluchonProjectZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D100DB77288DE13D00FF70DF /* CurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
 		D100DB7A288DE14600FF70DF /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		D100DB7B288DE14600FF70DF /* CurrencyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
@@ -112,13 +104,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D100DB5D288DDC8F00FF70DF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -138,7 +123,6 @@
 			children = (
 				D100DB40288DDC8B00FF70DF /* BaluchonProjectZ.app */,
 				D100DB56288DDC8F00FF70DF /* BaluchonProjectZTests.xctest */,
-				D100DB60288DDC8F00FF70DF /* BaluchonProjectZUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,11 +130,11 @@
 		D100DB42288DDC8B00FF70DF /* BaluchonProjectZ */ = {
 			isa = PBXGroup;
 			children = (
-				D100DB9B288DE53C00FF70DF /* Info.plist */,
-				D100DB74288DDD7900FF70DF /* View */,
-				D100DB7E288DE1AA00FF70DF /* Extensions */,
 				D100DB75288DDD8600FF70DF /* Model */,
+				D100DB74288DDD7900FF70DF /* View */,
 				D100DB73288DDD6200FF70DF /* Controller */,
+				D100DB9B288DE53C00FF70DF /* Info.plist */,
+				D100DB7E288DE1AA00FF70DF /* Extensions */,
 				D100DB76288DDD9900FF70DF /* Supporting Files */,
 			);
 			path = BaluchonProjectZ;
@@ -193,9 +177,9 @@
 		D100DB75288DDD8600FF70DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D100DB87288DE20E00FF70DF /* ObtainApiKey.swift */,
 				D100DB94288DE34500FF70DF /* Translate */,
 				D100DB89288DE2C800FF70DF /* Weather */,
-				D100DB87288DE20E00FF70DF /* ObtainApiKey.swift */,
 				D100DB79288DE14600FF70DF /* Currency */,
 			);
 			path = Model;
@@ -315,24 +299,6 @@
 			productReference = D100DB56288DDC8F00FF70DF /* BaluchonProjectZTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D100DB5F288DDC8F00FF70DF /* BaluchonProjectZUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D100DB70288DDC8F00FF70DF /* Build configuration list for PBXNativeTarget "BaluchonProjectZUITests" */;
-			buildPhases = (
-				D100DB5C288DDC8F00FF70DF /* Sources */,
-				D100DB5D288DDC8F00FF70DF /* Frameworks */,
-				D100DB5E288DDC8F00FF70DF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D100DB62288DDC8F00FF70DF /* PBXTargetDependency */,
-			);
-			name = BaluchonProjectZUITests;
-			productName = BaluchonProjectZUITests;
-			productReference = D100DB60288DDC8F00FF70DF /* BaluchonProjectZUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -347,10 +313,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					D100DB55288DDC8F00FF70DF = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = D100DB3F288DDC8B00FF70DF;
-					};
-					D100DB5F288DDC8F00FF70DF = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = D100DB3F288DDC8B00FF70DF;
 					};
@@ -371,7 +333,6 @@
 			targets = (
 				D100DB3F288DDC8B00FF70DF /* BaluchonProjectZ */,
 				D100DB55288DDC8F00FF70DF /* BaluchonProjectZTests */,
-				D100DB5F288DDC8F00FF70DF /* BaluchonProjectZUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -397,13 +358,6 @@
 				D100DBAC288DE7DA00FF70DF /* TranslateEnglish.json in Resources */,
 				D100DBAF288DE7DA00FF70DF /* TranslateDetect.json in Resources */,
 				D100DBB4288DE7E100FF70DF /* Weather.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D100DB5E288DDC8F00FF70DF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,13 +400,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D100DB5C288DDC8F00FF70DF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -460,11 +407,6 @@
 			isa = PBXTargetDependency;
 			target = D100DB3F288DDC8B00FF70DF /* BaluchonProjectZ */;
 			targetProxy = D100DB57288DDC8F00FF70DF /* PBXContainerItemProxy */;
-		};
-		D100DB62288DDC8F00FF70DF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D100DB3F288DDC8B00FF70DF /* BaluchonProjectZ */;
-			targetProxy = D100DB61288DDC8F00FF70DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -704,42 +646,6 @@
 			};
 			name = Release;
 		};
-		D100DB71288DDC8F00FF70DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69N585LAQZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sofyan-dev.BaluchonProjectZUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BaluchonProjectZ;
-			};
-			name = Debug;
-		};
-		D100DB72288DDC8F00FF70DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69N585LAQZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sofyan-dev.BaluchonProjectZUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BaluchonProjectZ;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -766,15 +672,6 @@
 			buildConfigurations = (
 				D100DB6E288DDC8F00FF70DF /* Debug */,
 				D100DB6F288DDC8F00FF70DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D100DB70288DDC8F00FF70DF /* Build configuration list for PBXNativeTarget "BaluchonProjectZUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D100DB71288DDC8F00FF70DF /* Debug */,
-				D100DB72288DDC8F00FF70DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
